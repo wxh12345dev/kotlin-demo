@@ -6,6 +6,8 @@ import org.springframework.boot.runApplication
 @SpringBootApplication(scanBasePackages = [])
 class KotlinDemoApplication
 
+
+
 fun main(args: Array<String>) {
     runApplication<KotlinDemoApplication>(*args)
 }
